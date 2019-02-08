@@ -23,11 +23,11 @@ var logVolume = wrapLog(volume, "volume");
 logVolume(5, 3, 2); // volume(5, 3, 2) => 30
 logVolume(3, 2, 4); // volume(3, 2, 4) => 24
 
-// var something = function (a,b,c,d,e) {
-//   return a*b*c*d*e;
-// };
+var something = function (a,b,c,d,e) {
+  return a*b*c*d*e;
+};
 
-// var unreal = wrapLog(something, "Not real");
+var unreal = wrapLog(something, "Not real");
 
-// unreal(3,4,5,6,7);
-// unreal(3,4,5,4,7);
+unreal(3,4,5,6,7);
+unreal(3,4,5,4,7);
